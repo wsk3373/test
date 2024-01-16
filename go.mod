@@ -29,7 +29,7 @@ require (
 	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
 	github.com/lib/pq v1.10.9
 	github.com/maruel/panicparse/v2 v2.3.1
-	github.com/maxbrunsfeld/counterfeiter/v6 v6.5.0
+	github.com/maxbrunsfeld/counterfeiter/v6 v6.8.1
 	github.com/minio/sha256-simd v1.0.1
 	github.com/miscreant/miscreant.go v0.0.0-20200214223636-26d376326b75
 	github.com/oschwald/geoip2-golang v1.9.0
@@ -47,14 +47,14 @@ require (
 	github.com/thejerf/suture/v4 v4.0.2
 	github.com/urfave/cli v1.22.14
 	github.com/vitrun/qart v0.0.0-20160531060029-bf64b92db6b0
-	golang.org/x/crypto v0.14.0
+	golang.org/x/crypto v0.18.0
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
-	golang.org/x/mod v0.13.0 // indirect
-	golang.org/x/net v0.17.0
-	golang.org/x/sys v0.13.0
-	golang.org/x/text v0.13.0
+	golang.org/x/mod v0.14.0 // indirect
+	golang.org/x/net v0.20.0
+	golang.org/x/sys v0.16.0
+	golang.org/x/text v0.14.0
 	golang.org/x/time v0.3.0
-	golang.org/x/tools v0.14.0
+	golang.org/x/tools v0.17.0
 	google.golang.org/protobuf v1.31.0
 )
 
