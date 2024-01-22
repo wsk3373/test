@@ -159,7 +159,7 @@ jobs:
           cache: false
           check-latest: true
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: |
             ~\AppData\Local\go-build
@@ -207,7 +207,7 @@ jobs:
           cache: false
           check-latest: true
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: |
             ~/.cache/go-build
@@ -249,7 +249,7 @@ jobs:
           cache: false
           check-latest: true
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: |
             ~/.cache/go-build
@@ -371,7 +371,7 @@ jobs:
           cache: false
           check-latest: true
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: |
             ~/.cache/go-build
@@ -553,7 +553,7 @@ jobs:
         run: |
           gem install fpm
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: |
             ~/.cache/go-build
@@ -712,7 +712,7 @@ jobs:
           cache: false
           check-latest: true
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: |
             ~/.cache/go-build
